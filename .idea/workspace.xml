@@ -4,6 +4,8 @@
     <list default="true" id="8dfabe55-4675-4b4c-a8d6-316a6cc7e630" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -30,16 +32,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="users_controller_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,31 +62,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_test.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_test.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="251">
+              <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20170512065116_add_index_to_users_email.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20170512065116_add_index_to_users_email.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,6 +156,8 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170512065116_add_index_to_users_email.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
@@ -249,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;new.ht&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;users&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;development.s&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/development.sqlite3&#10;_create&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512044401_create_users.rb&#10;users_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;site&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;foot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;site_layout&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;_footer&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/contact.html.erb&#10;static_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;application.css&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/application.css&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;home.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;application_helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;.giti&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/.gitignore&#10;Guard&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Guardfile&#10;test_he&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;tesh_helper.rb&#9;null&#9;null&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;about&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/about.html.erb&#10;Ge&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;static_pages_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;help.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;Foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/foo_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="users.yml&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/users.yml&#10;_add_index&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512065116_add_index_to_users_email.rb&#10;user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;new.ht&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;users&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;development.s&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/development.sqlite3&#10;_create&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512044401_create_users.rb&#10;users_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;site&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;foot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;site_layout&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;_footer&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/contact.html.erb&#10;static_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;application.css&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/application.css&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;home.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;application_helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;.giti&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/.gitignore&#10;Guard&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Guardfile&#10;test_he&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;tesh_helper.rb&#9;null&#9;null&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;about&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/about.html.erb&#10;Ge&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;static_pages_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;help.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -477,12 +471,12 @@
       <option name="presentableId" value="Default" />
       <updated>1494468909068</updated>
       <workItem from="1494468910391" duration="18009000" />
-      <workItem from="1494546908978" duration="17414000" />
+      <workItem from="1494546908978" duration="18915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35423000" />
+    <option name="totallyTimeSpent" value="36924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,6 +489,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="654" y="23" width="625" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3670669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -505,7 +500,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40694007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40694007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -860,18 +855,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170512065116_add_index_to_users_email.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="67" column="61" lean-forward="false" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
           <folding />
         </state>
       </provider>
