@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dfabe55-4675-4b4c-a8d6-316a6cc7e630" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/site_layout_test.rb" afterPath="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,8 +43,8 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -96,8 +93,8 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="98">
+              <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -107,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -146,7 +143,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/application_helper_test.rb" />
@@ -156,6 +152,7 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
       </list>
     </option>
   </component>
@@ -225,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;site&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;foot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;site_layout&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;_footer&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/contact.html.erb&#10;static_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;application.css&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/application.css&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;home.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;application_helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;.giti&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/.gitignore&#10;Guard&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Guardfile&#10;test_he&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;tesh_helper.rb&#9;null&#9;null&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;about&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/about.html.erb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;Ge&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;static_pages_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;help.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;Foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/foo_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;static_pages&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;README&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;site&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;foot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;site_layout&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;_footer&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;contact&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/contact.html.erb&#10;static_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;application.css&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/application.css&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;home.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;application_helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;.giti&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/.gitignore&#10;Guard&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Guardfile&#10;test_he&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;tesh_helper.rb&#9;null&#9;null&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;about&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/about.html.erb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;Ge&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;static_pages_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;help.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;Foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/foo_controller.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;static_pages&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;application_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;README&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/README.md" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -453,12 +450,12 @@
       <option name="presentableId" value="Default" />
       <updated>1494468909068</updated>
       <workItem from="1494468910391" duration="18009000" />
-      <workItem from="1494546908978" duration="11033000" />
+      <workItem from="1494546908978" duration="11481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29042000" />
+    <option name="totallyTimeSpent" value="29490000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +684,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1494551781000" expanded="true" signature="93:105" ph="..." />
+            <marker date="1494563109000" expanded="true" signature="93:105" ph="..." />
           </folding>
         </state>
       </provider>
@@ -727,7 +724,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -735,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -752,14 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -804,10 +793,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
