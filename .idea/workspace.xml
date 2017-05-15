@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8dfabe55-4675-4b4c-a8d6-316a6cc7e630" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_login_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_login_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/users_signup_test.rb" afterPath="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -35,31 +39,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="173">
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/controllers/sessions_controller_test.rb">
+      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <file leaf-file-name="users_signup_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="48">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_login_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/integration/users_login_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -68,8 +102,18 @@
       <file leaf-file-name="sessions_helper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -85,51 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_login_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/users_login_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="109">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -156,16 +160,13 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/static_pages_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-        <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/application_helper_test.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170512065116_add_index_to_users_email.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
@@ -173,20 +174,23 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/puma.rb" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/test/integration/users_login_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/test_helper.rb" />
+        <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/test/integration/users_login_test.rb" />
       </list>
     </option>
   </component>
@@ -281,7 +285,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="application.js&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/javascripts/application.js&#10;header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;htm&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;applic&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;users_login&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_login_test.rb&#10;session&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/sessions_controller.rb&#10;sessions/new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;sessions&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/sessions_controller.rb&#10;puma.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/puma.rb&#10;production&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/environments/production.rb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;user&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_signup_test.rb&#10;n&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;new.ht&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;users_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/users_helper.rb&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;users_c&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;config/route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;User&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512070943_add_password_digest_to_users.rb&#10;user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;add_pass&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512070943_add_password_digest_to_users.rb&#10;users.yml&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/users.yml&#10;_add_index&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512065116_add_index_to_users_email.rb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;users&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;development.s&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/development.sqlite3&#10;_create&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512044401_create_users.rb&#10;users_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb&#10;site&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;foot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb&#10;foo&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_footer.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="login_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_login_test.rb&#10;session&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/sessions_controller.rb&#10;users_signu&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_signup_test.rb&#10;test_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/test_helper.rb&#10;controller&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_login_test.rb&#10;users.yml&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/users.yml&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;application.js&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/javascripts/application.js&#10;header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;htm&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;appli&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;applic&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;users_login&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_login_test.rb&#10;sessions/new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;sessions&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/sessions_controller.rb&#10;puma.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/puma.rb&#10;production&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/environments/production.rb&#10;app&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/application.html.erb&#10;contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;user&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_signup_test.rb&#10;n&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;new.ht&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;users_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/users_helper.rb&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;users_c&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;config/route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;custom&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;User&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512070943_add_password_digest_to_users.rb&#10;user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;add_pass&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512070943_add_password_digest_to_users.rb&#10;_add_index&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512065116_add_index_to_users_email.rb&#10;help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/help.html.erb&#10;users&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;development.s&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/development.sqlite3&#10;_create&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170512044401_create_users.rb&#10;users_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;rails_de&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_rails_default.html.erb&#10;scss&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;routes&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/users_controller_test.rb&#10;application_help&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/application_helper_test.rb&#10;site_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;helper&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/helpers/application_helper.rb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -510,12 +514,12 @@
       <updated>1494468909068</updated>
       <workItem from="1494468910391" duration="18009000" />
       <workItem from="1494546908978" duration="21884000" />
-      <workItem from="1494806157921" duration="20307000" />
+      <workItem from="1494806157921" duration="22504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60200000" />
+    <option name="totallyTimeSpent" value="62397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,14 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -756,13 +752,6 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -854,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -894,38 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/users_login_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/sessions_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -938,22 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -982,10 +915,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/users_login_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>
