@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dfabe55-4675-4b4c-a8d6-316a6cc7e630" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/micropost.rb" afterPath="$PROJECT_DIR$/app/models/micropost.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/integration/microposts_interface_test.rb" afterPath="$PROJECT_DIR$/test/integration/microposts_interface_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -51,16 +43,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="microposts_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="microposts_interface_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/microposts_interface_test.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skip_image_resizing.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skip_image_resizing.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/skip_image_resizing.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -84,18 +66,38 @@
       <file leaf-file-name="picture_uploader.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="carrier_wave.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/carrier_wave.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -131,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_micropost.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -154,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
@@ -203,8 +193,10 @@
         <option value="$PROJECT_DIR$/test/integration/microposts_interface_test.rb" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
         <option value="$PROJECT_DIR$/config/initializers/skip_image_resizing.rb" />
+        <option value="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/carrier_wave.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -345,7 +337,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="picture_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/uploaders/picture_uploader.rb&#10;_micropost_form&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/shared/_micropost_form.html.erb&#10;micropost.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/micropost.rb&#10;picture_up&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/uploaders/picture_uploader.rb&#10;microposts_in&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/microposts_interface_test.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;_mic&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/microposts/_micropost.html.erb&#10;microposts_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;microposts.y&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;microposts&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;micropost_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;static con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;site_layout_test.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;edit.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/password_resets/edit.html.erb&#10;_form&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/_form.html.erb&#10;new.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;_error_mess&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/shared/_error_messages.html.erb&#10;static cont&#9;null&#9;null&#10;static_pages_cot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;application_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;micropost_contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/microposts_controller_test.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_index_test.rb&#10;index&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/index.html.erb&#10;users profile&#9;null&#9;null&#10;yml&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;custom.sc&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;seed&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/seeds.rb&#10;show.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/show.html.erb&#10;users_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;micropostsy&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;micropost_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/micropost_test.rb&#10;create_mi&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170518000759_create_microposts.rb&#10;micro&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;production&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/environments/production.rb&#10;password_reset_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/password_resets_controller.rb&#10;password_resets&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/password_resets_controller.rb&#10;password reset test&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/password_resets/edit.html.erb&#10;user_mailer_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/mailers/user_mailer_test.rb&#10;user mailer previe&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb&#10;password_reset.text&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/user_mailer/password_reset.text.erb" />
+    <property name="SearchEverywhereHistoryKey" value="seed&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/seeds.rb&#10;.gitign&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/.gitignore&#10;picture_up&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/uploaders/picture_uploader.rb&#10;picture_&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/uploaders/picture_uploader.rb&#10;_micropost_form&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/shared/_micropost_form.html.erb&#10;micropost.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/micropost.rb&#10;microposts_in&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/microposts_interface_test.rb&#10;route&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/routes.rb&#10;_mic&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/microposts/_micropost.html.erb&#10;microposts_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;Gemfile&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;microposts.y&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;microposts&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;micropost_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/microposts_controller.rb&#10;static con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/static_pages_controller.rb&#10;user.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/models/user.rb&#10;home&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;site_layout_test.rb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/site_layout_test.rb&#10;edit.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/password_resets/edit.html.erb&#10;_form&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/_form.html.erb&#10;new.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/new.html.erb&#10;_error_mess&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/shared/_error_messages.html.erb&#10;static cont&#9;null&#9;null&#10;static_pages_cot&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/static_pages_controller_test.rb&#10;home.html.erb&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/static_pages/home.html.erb&#10;users_con&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;application_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/application_controller.rb&#10;micropost_contro&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/controllers/microposts_controller_test.rb&#10;_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/integration/users_index_test.rb&#10;index&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/index.html.erb&#10;users profile&#9;null&#9;null&#10;yml&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;Gem&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/Gemfile&#10;custom.sc&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/assets/stylesheets/custom.scss&#10;show.html&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/users/show.html.erb&#10;users_cont&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/users_controller.rb&#10;user_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/user_test.rb&#10;micropostsy&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/fixtures/microposts.yml&#10;micropost_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/models/micropost_test.rb&#10;create_mi&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/db/migrate/20170518000759_create_microposts.rb&#10;micro&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/sessions/new.html.erb&#10;_header&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/layouts/_header.html.erb&#10;production&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/config/environments/production.rb&#10;password_reset_co&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/password_resets_controller.rb&#10;password_resets&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/controllers/password_resets_controller.rb&#10;password reset test&#9;null&#9;null&#10;edit&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/app/views/password_resets/edit.html.erb&#10;user_mailer_test&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/mailers/user_mailer_test.rb&#10;user mailer previe&#9;FILE&#9;file:///Users/stoba/Desktop/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -582,12 +574,12 @@
       <workItem from="1494806157921" duration="27802000" />
       <workItem from="1494892208395" duration="24630000" />
       <workItem from="1494978934709" duration="25859000" />
-      <workItem from="1495065032127" duration="19755000" />
+      <workItem from="1495065032127" duration="20972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137939000" />
+    <option name="totallyTimeSpent" value="139156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +592,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="654" y="23" width="625" height="726" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3670669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -610,7 +601,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40694007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40694007" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -661,21 +652,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/actionview-5.0.0.1/lib/action_view/helpers/form_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="437" column="23" lean-forward="false" selection-start-line="437" selection-start-column="23" selection-end-line="437" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -799,14 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1043,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/microposts_interface_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1063,6 +1023,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrier_wave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding />
         </state>
       </provider>
